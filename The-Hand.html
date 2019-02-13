@@ -1,0 +1,36 @@
+<html>
+<head>
+  <title>The Hand</title>
+  <link rel= "stylesheet" href= "The-Hand-Styles.css">
+  <script>
+  var fingers = ["thumb", "pointer", "middle", "ring", "pinkey"];
+  function fingerPicker() {
+    var randomFinger = fingers[Math.floor(Math.random() * fingers.length)];
+    alert(randomFinger);
+  }
+  </script>
+</head>
+<body>
+  <div class= "The-Body">
+    <h1>The Hand</h1>
+      <p>This is a <a href="https://en.wikipedia.org/wiki/Hand" target=
+         "_blank">site</a> about the beauty of the hand.</p>
+      <p>It is very beautiful</p>
+    <h2>The Parts of a Hand</h2><img id="tiny-hands-hand" src="finger-hands-10_800x.jpg">
+      <ul>
+        <li>Finger</li>
+        <li>Knuckle</li>
+        <li>Finger Nail</li>
+        <li>Palm</li>
+      </ul>
+    <div id="Pick-a-Finger"> Pick a Finger!
+      <button onclick= "fingerPicker()">Pick</button>
+    </div>
+  </div>
+    <div id="The-Sidebar">The Sidebar
+      <p>Item #1</p>
+      <p>Item #2</p>
+      <p>Item #3</p>
+    </div>
+</body>
+</html>

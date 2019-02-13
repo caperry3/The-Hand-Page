@@ -1,0 +1,17 @@
+#The-Sidebar {
+  color: maroon;
+  font-size: 20px;
+  float: left;
+  width: 20%;
+}
+h1 {
+  color: tan;
+}
+.The-Body {
+  float: right;
+  width: 80%;
+}
+#tiny-hands-hand {
+  height: 200px;
+  width: 200px;
+}
